@@ -1,0 +1,186 @@
+body,html{
+	font-family: Helvetica;
+	background-color: #f3f3f4;
+	color:#676a6c;
+	height:100%;
+	width: 100%;
+
+}
+
+.display-table{
+	display: table;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+.display-table-row{
+	display: table-row;
+	height: 100%;
+}
+
+.display-table-cell{
+	display: table-cell;
+	float: none;
+	height: 100%;
+}
+.box{
+	border:10px solid;
+	border-color: red;
+	background-color: green;
+}
+
+#sidemenu{
+	background-color: teal;
+	padding: 0px;
+}
+
+#nav-header{
+	background-color: white;
+	border-bottom: 1px solid #e7eaec;
+}
+
+#nav-header #header-search-field{
+	padding-top:17px;
+	vertical-align: center;
+	border: none;
+	width: 300px;
+	outline:none;
+	margin-bottom: 7px;
+	/*padding-bottom: 10px;*/
+}
+
+.glyphicon {
+    font-size: 15px;
+}
+
+/*.label {
+    font-size: 15px;
+}*/
+
+#nav-header ul{
+	margin: 0px;
+	padding: 0px;
+	color:#676a6c;
+}
+#nav-header ul li{
+	float: left;
+	margin-left: 15px;
+	padding: 17px 0px;
+}
+#nav-header a, .label{
+	text-decoration: none;
+}
+
+a{
+ 	text-decoration: none;
+}
+#nav-header .logout:hover{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#welcome{
+	margin-right: 25px;
+}
+
+#nav-header ul .label{
+	position: absolute;
+	margin-top: -5px;
+}
+
+#nav-header .fixed-width{
+	width: 40px;
+}
+
+#sidemenu ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+#sidemenu a{
+	padding: 12px 20px;
+	text-decoration: none;
+	color: #9fb1c2;
+	font-weight: bold;
+	font-size:13px;
+	display: block;
+}
+
+#sidemenu .settings-btn{
+	background-color: tomato;
+
+}
+#sidemenu .settings-btn a{
+	color: white;
+}
+
+#sidemenu .settings-btn a:hover{
+	background-color: tomato;
+}
+
+
+#sidemenu .collapseable li{
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+#sidemenu .collapseable a{
+	color: #9fb1c2;
+	font-size: 12px;
+	padding: 0px 10px;
+	text-decoration: none;
+	display: block;
+}
+
+#sidemenu .collapseable a:hover{
+	color: white;
+}
+
+#sidemenu .collapseable {
+	border-left: 4px solid tomato;
+	background-color: #293846;
+}
+
+#sidemenu .link > ul >li{
+	padding-bottom: 15px;
+}
+
+#sidemenu .glyphicon{
+	margin-right: 6px;
+}
+
+#sidemenu a:hover{
+	background-color: #293846;
+	color:white;
+	display: block;
+}
+#sidemenu .active a{
+	color: white;
+	background-color: #293846;
+}
+
+#sidemenu h2{
+	color: tomato;
+	text-align: center;
+	margin: 10px 0px;
+	font-size: 25px;
+}
+
+.navbar-default{
+	background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+	border-color:tomato;
+	background-color:tomato;
+}
+
+.navbar-default .icon-bar{
+	border: 1px white solid;
+}
+
+.navbar-default .navbar-toggle:hover{
+	background-color: blue;
+}
